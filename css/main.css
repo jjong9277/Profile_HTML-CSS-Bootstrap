@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #f7f9fc;
 }
 
 div {
@@ -12,4 +13,65 @@ h1 {
 
 h4 {
     font-size: 22px;
+}
+
+.profile-photo {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.main-box {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border-right: 1px solid rgb(209, 220, 231);
+    border-bottom: 0.2px solid rgb(209, 220, 231);
+    padding: 30px;
+}
+
+.profile-summary {
+    padding: 30px;
+}
+.location-info {
+    color: #6fbaf8;
+}
+.button-contact {
+    background-color: #6fbaf8;
+    border: none;
+}
+
+.profile-detail {
+    margin: auto;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.nav-bar {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-bottom: 3px solid rgb(209, 220, 231);
+
+}
+.nav-profile {
+    color: #6fbaf8;
+    border-bottom:3px solid #6fbaf8;
+    font-size: 20px;
+    margin: -3px;
+}
+
+.skills {
+    border: 1px solid rgb(209, 220, 231);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-works {
+
 }
