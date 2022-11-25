@@ -27,8 +27,7 @@ h4 {
     margin-top: 30px;
     width: 100%;
     border-radius: 10px;
-    border-right: 1px solid rgb(209, 220, 231);
-    border-bottom: 0.2px solid rgb(209, 220, 231);
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
     padding: 30px;
 }
 
@@ -45,6 +44,7 @@ h4 {
 
 .profile-detail {
     margin: auto;
+
 }
 
 .bold-font {
@@ -66,12 +66,33 @@ h4 {
 }
 
 .skills {
+    display: inline-block;
     border: 1px solid rgb(209, 220, 231);
     border-radius: 30px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.box-works {
-
+.box-signUp {
+    text-align: center;
 }
+
+.linkedin-icon {
+    color: #6fbaf8;
+}
+
+.signup-link {
+    text-decoration: none;
+    color: #6fbaf8;
+}
+
+.people-photo {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.loca{
+    font-size: 10px;
+}
+
+@media and 
